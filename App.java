@@ -4,10 +4,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-
-
 /**
- * App
+ * Complete a separate function for the uery processing
  */
 public class App {
     public static void main(String[] args) {
