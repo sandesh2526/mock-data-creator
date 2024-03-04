@@ -40,7 +40,7 @@ public class App {
         int employeeId = 10000;
 
         try {
-            FileWriter fileWriter = new FileWriter("dataToMock.sql");
+            FileWriter fileWriter = new FileWriter("mockData.sql");
             while (insertCount < recordsReuired) {
                 //generate index from the pointers
                 int firstNameIndex = firstNamePointer % (firstNames.size());
